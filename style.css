@@ -1,4 +1,19 @@
 body{
-  margin-top: 60px;
-  background-color: #A49480;
+ background-color: green;
 }
+
+h1{
+  margin: 50px;
+}
+hr{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+footer{
+  margin-top: 55px;
+}
+#break{
+  margin-top: 25px;
+}
+
+  
