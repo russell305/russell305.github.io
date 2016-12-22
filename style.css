@@ -26,6 +26,8 @@ body{
   border: 3px solid black;
   border-radius: 25px;
   padding-bottom: 22px;
+  margin-bottom: 20px;
+   margin-top: 20px;
 }
 
 #strict{
@@ -39,22 +41,27 @@ body{
 
 #green{
  background-color:green;
+ margin: 10px;
 }
 #red{
  background-color:red;
+ margin: 10px;
 }
 #yellow{
  background-color:yellow;
+ margin: 10px;
 }
 #blue{
  background-color:blue;
+ margin: 10px;
 }
 
 button {
- width: 65px;
- height: 65px;
- margin:10px;
+ width: 75px;
+ height: 75px;
+ margin: 20px;
   border-radius: 7px;
+ 
 
  }
 
@@ -67,6 +74,7 @@ h1 {
 
 .cnt{
   display: inline;
+
 }
 .count {
     border-radius: 5px;
@@ -74,6 +82,7 @@ h1 {
     font-size: 20px;
     font-family: 'Inconsolata';
     padding-top: 5px;
+
     display: inline;
  }
 
