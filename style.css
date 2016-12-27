@@ -1,99 +1,167 @@
-body{
-  margin-top: 60px;
-  background-color: #A49480;
+body {
+  background-color: white;
 }
 
-.outer-box {
-  width: 500px;
-  height: 500px;
-  border: 2px solid #46b8da;
-  background-color: #E0E0E0;
-  border-radius: 250px;
-  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px
+.submissionfield1 { 
+  width: 118px; height: 30px; border: 1px solid #999999; padding: 0px; 
 }
-.circle{
-  background: white;
-  width: 20px;
-  height: 20px;
-  border: 3px solid black;
-  border-radius: 10px;
-  display: inline;
-}
-#start{
-  background: red;
-  width: 55px;
-  height: 25px;
-  border: 3px solid black;
-  border-radius: 25px;
-  padding-bottom: 22px;
-  margin-bottom: 20px;
-   margin-top: 20px;
-}
+.submissionfield2 { width: 240px; height: 30px; border: 1px solid #999999; padding: 0px; }
+.submission-box{
+ position: relative;
 
-#strict{
-  background: yellow;
-  width: 55px;
-  height: 25px;
-  border: 3px solid black;
-  border-radius: 25px;
-  padding-bottom: 22px;
-}
-
-#green{
- background-color:green;
- margin: 10px;
-}
-#red{
- background-color:red;
- margin: 10px;
-}
-#yellow{
- background-color:yellow;
- margin: 10px;
-}
-#blue{
- background-color:blue;
- margin: 10px;
-}
-
-button {
- width: 75px;
- height: 75px;
- margin: 20px;
-  border-radius: 7px;
- 
-
- }
-
-h1 {
-  margin-top: 80px;
-  font-family: 'Oswald', sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
- }
-
-.cnt{
-  display: inline;
+  top: -15vw;
 
 }
-.count {
-    border-radius: 5px;
-    color: #b30000;
-    font-size: 20px;
-    font-family: 'Inconsolata';
-    padding-top: 5px;
-
-    display: inline;
- }
-
-h3 {
-  margin-top: 22px;
-  font-family: 'Oswald', sans-serif;
- }
-
-
-footer{
-  margin-top:40px;
-}
-
+.navbar{
+background-color: white;
+  top: -14vw;
+  border: 0px; 
   
+}
+.navbar-list {
+  font-size: 1.2vw;
+  position: relative;
+  top: -.5vw;
+  border: 0px; 
+}
+
+
+li {
+  display: inline-block;
+  padding: 1vw;
+}
+
+li a {
+  color: black;
+}
+
+.active {
+  /*Current Nav Bar Select */
+  background-color: red;
+}
+
+.menu-button {
+  background-color: blue;
+  position: relative;
+  left: -17vw;
+  top: -0.2vw;
+  width: 6 px;
+ }
+.glyphicon-menu-hamburger{
+  left: -.5vw;
+}
+
+#text-menu {
+  position: relative;
+  left: -18vw;
+}
+#text-call {
+  position: relative;
+  left: -16vw;
+}
+
+#icon-image {
+  position: relative;
+  width: 7vw;
+  height: 7%;
+  top: 4vw;
+  left: -9vw;
+ }
+
+#text-icon {
+  font-size: 1.5vw;
+  position: relative;
+  top: .12vw;
+  right: 10vw;
+}
+#text-residents {
+  position: relative;
+  right: 1vw;
+}
+#text-apply {
+  position: relative;
+  right: -10vw;
+}
+
+
+
+.dropdown-menu {
+  /*display: block;*/
+  
+  width: 17vw;
+  height: 35vw;
+  background-color: grey;
+  top: -3.1vw;
+ 
+   left: -22vw;
+  font-size: 1.0vw;
+}
+
+#x-button {
+  background-color: grey;
+  position: relative;
+  top: 22px;
+  /* This will move it 10px up */
+  left: 3.5vw;
+  /* This will move it 20px to the right */
+}
+.text-dropdown{
+  position: relative;
+  left: 2.7vw;
+  top: 22px;
+}
+
+/* Carousel */
+
+
+
+.slider {
+   position: relative;
+   top: 12vw;
+  background-color: ;
+   border: 0px; 
+}
+
+.slider-nav {
+   position: relative;
+   top: -35vw;
+}
+
+#image-text{
+  position: relative;
+  top: -27vw;
+  color: red;
+  font-size: 7vw;
+}
+
+.arrow-prev {
+  position: relative;
+  top: 0vw;
+  left: -40vw;
+  background-color: ;
+}
+
+.arrow-next {
+  position: relative;
+  right: -40vw;
+  background-color: ;
+  top: 0vw;
+}
+
+.slider-dots {
+  right: -4vw;
+  display: inline-block;
+  position: relative;
+  top: 2vw;
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: black;
+}
