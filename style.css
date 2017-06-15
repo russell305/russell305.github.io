@@ -4,9 +4,9 @@ body {
 
 
 .navbar-list {
-  font-size: 1.2vw;
+  font-size: 22px;
   position: relative;
-  top: -.5vw;
+  top: -2.5vw;
   border: 0px; 
 }
 
@@ -40,8 +40,7 @@ li a {
   position: relative;
   width: 7vw;
   height: 7%;
-  top: 4vw;
-  left: -9vw;
+
  }
 
 
