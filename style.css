@@ -2,17 +2,7 @@ body {
   background-color: red;
 }
 
-.submissionfield1 { 
-  width: 118px; height: 30px; border: 1px solid #999999; padding: 0px; 
-}
-.submissionfield2 { width: 240px; height: 30px; border: 1px solid #999999; padding: 0px; }
-.submission-box{
- position: relative;
 
-  top: -15vw;
-
-}
-.navbar{
 background-color: green;
   top: -14vw;
   border: 0px; 
