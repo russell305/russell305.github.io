@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: red;
 }
 
 .submissionfield1 { 
@@ -13,7 +13,7 @@ body {
 
 }
 .navbar{
-background-color: white;
+background-color: grey;
   top: -14vw;
   border: 0px; 
 
