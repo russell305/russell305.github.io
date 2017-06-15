@@ -4,7 +4,7 @@ body {
 
 
 .navbar-list {
-  font-size: 22px;
+  font-size: 52px;
   position: relative;
   top: -2.5vw;
   border: 0px; 
@@ -38,8 +38,8 @@ li a {
 
 #icon-image {
   position: relative;
-  width: 7vw;
-  height: 7%;
+  width: 27vw;
+  height: 27%;
 
  }
 
