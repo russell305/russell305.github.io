@@ -3,11 +3,6 @@ body {
 }
 
 
-background-color: green;
-  top: -14vw;
-  border: 0px; 
-
-}
 .navbar-list {
   font-size: 1.2vw;
   position: relative;
@@ -31,7 +26,7 @@ li a {
 }
 
 .menu-button {
-  background-color: red;
+  background-color: black;
   position: relative;
   left: -17vw;
   top: -0.2vw;
