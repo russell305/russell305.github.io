@@ -22,19 +22,10 @@ li a {
 
 .active {
   /*Current Nav Bar Select */
-  background-color: white;
+  background-color: red;
 }
 
-.menu-button {
-  background-color: black;
-  position: relative;
-  left: -17vw;
-  top: -0.2vw;
-  width: 6 px;
- }
-.glyphicon-menu-hamburger{
-  left: -.5vw;
-}
+
 
 #text-menu {
   position: relative;
@@ -53,20 +44,7 @@ li a {
   left: -9vw;
  }
 
-#text-icon {
-  font-size: 1.5vw;
-  position: relative;
-  top: .12vw;
-  right: 10vw;
-}
-#text-residents {
-  position: relative;
-  right: 1vw;
-}
-#text-apply {
-  position: relative;
-  right: -10vw;
-}
+
 
 
 
