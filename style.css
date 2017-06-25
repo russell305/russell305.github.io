@@ -114,13 +114,17 @@ nav ul li a:hover {
 
 #contact {
   background: #C8F7C5;
-  padding-top: 160px;
-  padding-bottom: 160px;
+  
+  height: 100vh;
+  
 }
 
-#contact h1{
-   padding-top:10vh;
-  padding-bottom:12vh;
+.contact h1{
+   margin-top:5vh;
+  
+  padding-top:30vh;
+  padding-bottom: 5vh;
+
 }
 
 .contact-buttons{
